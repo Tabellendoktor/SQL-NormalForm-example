@@ -1,3 +1,6 @@
+-- SQL file has been written forDer TabellenDoktor (www.tabellendoktor.de)
+-- Please feel free to use the SQL examples but keep the link to the website included. Thank you!
+
  -- Delete tables from database if they exist already
 DROP TABLE IF EXISTS Tracks; -- start with Tracks because of the foreign key contraints
 DROP TABLE IF EXISTS Albums;

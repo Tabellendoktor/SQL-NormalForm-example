@@ -1,3 +1,6 @@
+-- SQL file has been written forDer TabellenDoktor (www.tabellendoktor.de)
+-- Please feel free to use the SQL examples but keep the link to the website included. Thank you!
+
 -- inserting values into Artist
 INSERT INTO Artist (Artist_ID, Artist, Artist_YOB) VALUES ('1', 'P!nk', '1979');
 INSERT INTO Artist (Artist_ID, Artist, Artist_YOB) VALUES ('2', 'Katy Perry', '1984');
