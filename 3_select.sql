@@ -1,6 +1,10 @@
 -- SQL file has been written forDer TabellenDoktor (www.tabellendoktor.de)
 -- Please feel free to use the SQL examples but keep the link to the website included. Thank you!
 
+-- just select all artists (with all columns)
+SELECT *
+FROM Artist;
+
 -- select artists with a calculated age >= 30
 SELECT Artist, 2020 - Artist_YOB AS age 
 FROM Artist
