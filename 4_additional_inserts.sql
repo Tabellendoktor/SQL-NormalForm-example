@@ -1,0 +1,138 @@
+-- SQL file has been written forDer TabellenDoktor (www.tabellendoktor.de)
+-- Please feel free to use the SQL examples but keep the link to the website included. Thank you!
+
+-- This file inserts more entries into the database to increase result sets and allow for more distinguished filtering
+
+-- first insert 'missing' tracks for already created albums 
+INSERT INTO Tracks (Album_ID, Track, Track_name) VALUES
+(8978, 5, '90 Days (feat. Wrabel)'), 
+(8978, 6, 'Hurts 2B Human (feat. Khalid)'), 
+(8978, 7, 'Can We Pretend (feat. Cash Cash)'), 
+(8978, 8, 'Courage'), 
+(8978, 9, 'Happy'), 
+(8978, 10, 'We Could Have It All'), 
+(8978, 11, 'Love Me Anyway (feat. Chris Stapleton)'), 
+(8978, 12, 'Circle Game'), 
+(8978, 13, 'The Last Song of Your Life'), 
+(8979, 3, 'Roulette'), 
+(8979, 4, 'Swish Swish (featuring Nicki Minaj)'), 
+(8979, 5, 'Déjà Vu'), 
+(8979, 6, 'Power'), 
+(8979, 7, 'Mind Maze'), 
+(8979, 8, 'Miss You More'), 
+(8979, 9, 'Chained to the Rhythm (featuring Skip Marley)'), 
+(8979, 10, 'Tsunami'), 
+(8979, 11, 'Bon Appétit (featuring Migos)'), 
+(8979, 12, 'Bigger Than Me'), 
+(8979, 13, 'Save as Draft'), 
+(8979, 14, 'Pendulum'), 
+(8979, 15, 'Into Me You See'), 
+(8979, 16, 'Dance with the Devil'), 
+(8979, 17, 'Act My Age'), 
+(8980, 4, 'Cool'), 
+(8980, 5, 'Levitating'), 
+(8980, 6, 'Pretty Please'), 
+(8980, 7, 'Hallucinate'), 
+(8980, 8, 'Love Again'), 
+(8980, 9, 'Break My Heart'), 
+(8980, 10, 'Good in Bed'), 
+(8980, 11, 'Boys Will Be Boys'),
+(8981, 3, 'Naked'), 
+(8981, 4, 'Tattoo'), 
+(8981, 5, 'OMG What’s Happening'), 
+(8981, 6, 'Call Me Tonight'), 
+(8981, 7, 'Born to the Night'), 
+(8981, 8, 'Torn'), 
+(8981, 9, 'Take You to Hell'), 
+(8981, 10, 'Who’s Laughing Now'), 
+(8981, 11, 'Belladonna'), 
+(8981, 12, 'Rumors'), 
+(8981, 13, 'So Am I'), 
+(8981, 14, 'Salt'), 
+(8981, 15, 'Sweet but Psycho'), 
+(8982, 3, 'Good in Bed (Zach Witness and Gen Hoshino Remixes)'), 
+(8982, 4, 'Pretty Please (Midland Refix)'), 
+(8982, 5, 'Pretty Please (Masters at Work Remix)'), 
+(8982, 6, 'Boys Will Be Boys (Zach Witness Remix)'), 
+(8982, 7, 'Love Again (Horse Meat Disco Remix)'), 
+(8982, 8, 'Break My Heart / Cosmic Girl (Dimitri from Paris Edit)'), 
+(8982, 9, 'Levitating (The Blessed Madonna Remix featuring Madonna and Missy Elliott)'), 
+(8982, 10, 'Hallucinate (Mr Fingers deep stripped mix)'), 
+(8982, 11, 'Hallucinate (Paul Woolford Extended Remix)'), 
+(8982, 12, 'Love Is Religion (The Blessed Madonna Remix)'), 
+(8982, 13, 'Don''t Start Now (Yaeji Remix)'), -- please notice the doubled '' to be able to insert the word don't
+(8982, 14, 'Cool (Jayda G Remix)'), 
+(8982, 15, 'Kiss and Make Up (Remix with Blackpink)'), 
+(8982, 16, 'That Kind of Woman (Jacques Lu Cont Remix)'), 
+(8982, 17, 'Break My Heart (Moodymann Remix)')
+;
+
+-- one more album for Dua Lipa
+INSERT INTO Albums (Album_ID, Album_name, PublicationYear, Artist_ID) VALUES (8983, 'Dua Lipa', 2017, 3);
+-- and there are tracks to it (listing taken for the version published in DACH region)
+INSERT INTO Tracks (Album_ID, Track, Track_name) VALUES
+(8983, 1, 'Genesis'), 
+(8983, 2, 'Last Dance'), 
+(8983, 3, 'Hotter than Hell'), 
+(8983, 4, 'Be the One'), 
+(8983, 5, 'IDGAF'), 
+(8983, 6, 'Blow Your Mind (Mwah)'), 
+(8983, 7, 'New Love'), 
+(8983, 8, 'Garden'), 
+(8983, 9, 'Thinking ''Bout You'), 
+(8983, 10, 'Room for 2'), 
+(8983, 11, 'Lost in Your Light (featuring Miguel)'), 
+(8983, 12, 'No Goodbyes'), 
+(8983, 13, 'New Rules'), 
+(8983, 14, 'Begging'), 
+(8983, 15, 'Homesick'), 
+(8983, 16, 'Dreams'), 
+(8983, 17, 'Bad Together')
+;
+
+-- and how about some more albums for Pink? 
+INSERT INTO Albums (Album_ID, Album_name, PublicationYear, Artist_ID) VALUES (8984, 'Try this', 2003, 1);
+INSERT INTO Albums (Album_ID, Album_name, PublicationYear, Artist_ID) VALUES (8985, 'Funhouse', 2008, 1);
+INSERT INTO Albums (Album_ID, Album_name, PublicationYear, Artist_ID) VALUES (8986, 'The Truth About Love', 2017, 1);
+-- and now some tracks 
+INSERT INTO Tracks (Album_ID, Track, Track_name) VALUES
+(8984, 1, 'Trouble'), 
+(8984, 2, 'God Is a DJ'), 
+(8984, 3, 'Last to Know'), 
+(8984, 4, 'Tonight''s the Night'), 
+(8984, 5, 'Oh My God (featuring Peaches)'), 
+(8984, 6, 'Catch Me While I''m Sleeping'), 
+(8984, 7, 'Waiting for Love'), 
+(8984, 8, 'Save My Life'), 
+(8984, 9, 'Try Too Hard'), 
+(8984, 10, 'Humble Neighborhoods'), 
+(8984, 11, 'Walk Away'), 
+(8984, 12, 'Unwind'), 
+(8984, 13, 'Love Song'), 
+(8984, 14, 'Hooker (hidden track)'), 
+(8985, 1, 'So What'), 
+(8985, 2, 'Sober'), 
+(8985, 3, 'I Don’t Believe You'), 
+(8985, 4, 'One Foot Wrong'), 
+(8985, 5, 'Please Don’t Leave Me'), 
+(8985, 6, 'Bad Influence'), 
+(8985, 7, 'Funhouse'), 
+(8985, 8, 'Crystal Ball'), 
+(8985, 9, 'Mean'), 
+(8985, 10, 'It’s All Your Fault'), 
+(8985, 11, 'Ave Mary A'), 
+(8985, 12, 'Glitter in the Air'),
+(8986, 1, 'Are We All We Are'), 
+(8986, 2, 'Blow Me (One Last Kiss)'), 
+(8986, 3, 'Try'), 
+(8986, 4, 'Just Give Me a Reason (feat. Nate Ruess)'), 
+(8986, 5, 'True Love (feat. Lily Rose Cooper)'), 
+(8986, 6, 'How Come You’re Not Here'), 
+(8986, 7, 'Slut Like You'), 
+(8986, 8, 'The Truth About Love'), 
+(8986, 9, 'Beam Me Up'), 
+(8986, 10, 'Walk of Shame'), 
+(8986, 11, 'Here Comes the Weekend (feat. Eminem)'), 
+(8986, 12, 'Where Did the Beat Go?'), 
+(8986, 13, 'The Great Escape')
+;

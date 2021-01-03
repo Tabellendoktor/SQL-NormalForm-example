@@ -7,7 +7,7 @@ INSERT INTO Artist (Artist_ID, Artist, Artist_YOB) VALUES (2, 'Katy Perry', 1984
 INSERT INTO Artist (Artist_ID, Artist, Artist_YOB) VALUES (3, 'Dua Lipa', 1995), (4, 'Ava Max', 1994); -- insert multiple entries at once, please note the use of brackets
 
 -- inserting values into Albums
-INSERT INTO Albums (Album_ID, Album_name, PublicationYear, Artist_ID) VALUES ('8978', 'Hurts 2B Human', '2019', '1'), ('8979', 'Witness (Deluxe)', '2017', '2'), ('8980', 'Future Nostalgia', '2020', '3'), ('8981', 'Heaven & Hell', '2020', '4'), ('8982', 'Future Nostalgia (DJ Mix)', '2020', '3');
+INSERT INTO Albums (Album_ID, Album_name, PublicationYear, Artist_ID) VALUES (8978, 'Hurts 2B Human', 2019, 1), (8979, 'Witness (Deluxe)', 2017, 2), (8980, 'Future Nostalgia', 2020, 3), (8981, 'Heaven & Hell', 2020, 4), (8982, 'Future Nostalgia (DJ Mix)', 2020, 3);
 
 -- inserting values into Tracks
 INSERT INTO Tracks (Album_ID, Track, Track_name) VALUES
