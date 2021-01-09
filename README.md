@@ -1,6 +1,6 @@
 # SQL examples 
 
-These SQL examples have been to introduce some basic SQL commands and concepts. Covered functions include SELECT, INSERT, CREATE, ALTER, UPDATE, DELETE. The code has been written with MySQL as target. Nonetheless it should basically run on any SQL-capable database as no special commands have been used. 
+These SQL examples have been written to introduce some basic SQL commands and concepts. Covered functions include SELECT, INSERT, CREATE, ALTER, UPDATE, DELETE. The code has been written with MySQL as target. Nonetheless it should basically run on any SQL-capable database as no special commands have been used. 
 
 ## Authorship
 All SQL files have been written for my project _Der TabellenDoktor_ (www.tabellendoktor.de). Please feel free to use the SQL examples but keep the link to the website included. Thank you!
