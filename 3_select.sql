@@ -58,3 +58,16 @@ FROM
 FROM Tracks INNER JOIN Albums ON Tracks.Album_ID = Albums.Album_ID
 	INNER JOIN Artist ON Albums.Artist_ID = Artist.Artist_ID
 GROUP BY Artist.Artist) AS artistStat;
+
+-- show only artists with more than two albums
+SELECT Albums.Artist_ID, Artist.Artist, COUNT(Album_ID) 
+FROM Albums INNER JOIN Artist ON Artist.Artist_ID = Albums.Artist_ID
+GROUP BY Albums.Artist_ID
+HAVING COUNT(Album_ID) > 2
+ORDER BY COUNT(Album_ID) ASC;
+
+SELECT * FROM
+(SELECT Albums.Artist_ID, Artist.Artist, COUNT(Album_ID) AS albumCount
+FROM Albums INNER JOIN Artist ON Artist.Artist_ID = Albums.Artist_ID
+GROUP BY Albums.Artist_ID) AS resultTable
+WHERE albumCount > 2;
