@@ -42,3 +42,7 @@ Different aspects and approaches to select data. From simple queries on one tabl
 ## 4 additional INSERT (more data)
 
 Provides more data to play with. Within the VALUES part of some INSERT commands, you might encounter some double quotes _''_ (two times a single quote) to insert words like _don't_. Without the double quotes the database thinks the string ends and does not know what to do with the rest.
+
+## 5 DELETE data
+
+Shows how data can be deleted from the database without removing the whole tables. 
