@@ -45,4 +45,4 @@ Provides more data to play with. Within the VALUES part of some INSERT commands,
 
 ## 5 DELETE data
 
-Shows how data can be deleted from the database without removing the whole tables. 
+Shows how data can be deleted from the database without removing a whole table. 
