@@ -10,6 +10,9 @@ SELECT Artist, 2020 - Artist_YOB AS age
 FROM Artist
 WHERE 2020 - Artist_YOB >= 30;
 
+-- select from tracks those with a name containing "physical" at any position
+SELECT * FROM Tracks WHERE Track_name LIKE '%Physical%'; 
+
 -- UNION between artists born >= 1994 and < 1995 (no duplicates)
 SELECT * FROM Artist WHERE Artist_YOB >= 1994
 UNION
