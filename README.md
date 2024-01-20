@@ -4,11 +4,8 @@ These SQL examples have been written to introduce some basic SQL commands and co
 
 Covered functions include SELECT, INSERT, CREATE, ALTER, UPDATE, DELETE. The code has been written with MySQL as target. Nonetheless it should basically run on any SQL-capable database as no special commands have been used. 
 
-These files are part of the case study "Let the music play" on _Der TabellenDoktor_ (in German). Find out more about it here:
-https://www.tabellendoktor.de/1985-let-the-music-play-die-praxis-fallstudie-zu-tabellen-normalformen-und-sql-mit-losungen-los-gehts/
-
 ## Authorship
-All SQL files have been written for my project _Der TabellenDoktor_ (www.tabellendoktor.de). Please feel free to use the SQL examples but keep the link to the website included. Thank you!
+All SQL files have been written as part of my teaching. Please feel free to use the SQL examples but keep the link to the website included. Thank you!
 
 ## Words of precaution
 **&tldr; Think before you run something. And creating backups is never wrong**
