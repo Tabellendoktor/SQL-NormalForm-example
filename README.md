@@ -17,7 +17,7 @@ All SQL files have been written as part of my teaching. Please feel free to use 
 
 ## Contact
 
-Contact me at team@tabellendoktor.de or visit _Der TabellenDoktor_ (www.tabellendoktor.de, in German)
+Contact me via my website https://www.digitalisierungsarchitekt.de/kontakt
 
 # Content of the files
 
